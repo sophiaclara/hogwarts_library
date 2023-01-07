@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+.carousel-item {
+    object-fit: cover;
+}
+
+.center-caption {
+    top: 40%;
+    height: auto;
+    max-height: 120px;
+}
+
+.big-text {
+    color: white;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.big-text-black {
+    color: black;
+    font-size: 38pt;
+    font-weight: 900;
+}
+
+.spacer {
+    height: 10px;
+    background-color: dimgray;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.two-box {
+    background-image: url('https://www.wizardingworld.com/assets/_next/static/images/bg-93724927d97aed53189ed6c949ad8547.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center-dist {
+    align-self: center;
+    color: white;
+    font-size: 18pt;
+}
+
+i {
+    color: white;
+}
+
+@media (max-width :576px) {
+    .center-caption {
+        top: 10%;
+    }
+
+    .big-text {
+        font-size: 24pt;
+    }
+
+    .center-dist {
+        text-align: center;
+    }
+}
+
+
+#slide1{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), 
+    url('https://www.pottermorepublishing.com/wp-content/uploads/PMP_Article_Banner_NO_TEXT-1024x580.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+#slide2{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), 
+    url('https://static.wikia.nocookie.net/harrypotter/images/7/7e/Harry-potter2-library.jpg/revision/latest?cb=20170718191143');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+#slide3{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), 
+    url('https://static.wikia.nocookie.net/harrypotter/images/7/7e/Harry-potter2-library.jpg/revision/latest?cb=20170718191143');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.card-text{
+    text-align: justify;
+}

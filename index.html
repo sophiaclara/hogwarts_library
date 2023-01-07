@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <title>Hogwarts Library</title>
+</head>
+
+<body>
+  <!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #10141b;">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-weight: bold;">
+        <img src="img/logo.png" alt="Bootstrap" width="70" height="48" class="d-inline-block" >
+        Hogwarts Library
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Digital Book</a></li>
+              <li><a class="dropdown-item" href="#">Audio Book</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Online Reservation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Partnership</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--slide-->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="slide1">
+          <div class="carousel-caption center-caption">
+            <h5 class="big-text">Welcome to Hogwarts Library !</h5>
+            <p><i>"When in doubt, go to the library."</i></p>   
+            <button type="button" class="btn btn-primary">Discover More</button>   
+          </div>
+        </div>
+        <div class="carousel-item" id="slide2">
+          <img src="https://static.wikia.nocookie.net/harrypotter/images/a/a2/B1C14M1_Trio_in_the_Hogwarts_Library.jpg/revision/latest?cb=20190313165939"
+          class="d-block w-100" alt="...">
+          <div class="carousel-caption center-caption">
+            <h5 class="big-text">Explore the Hogwarts Library books</h5>
+            <p>Go deeper into the wizarding world's history!</p>
+            <button type="button" class="btn btn-primary">Explore More</button>  
+          </div>
+        </div>
+        <div class="carousel-item" id="slide3">
+          <div class="carousel-caption center-caption">
+            <h5 class="big-text">Study Up on Wizarding History</h5>
+            <p> Explore more around these storybooks with handy articles.</p>
+            <button type="button" class="btn btn-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+  <!--spacer-->
+  <div class="spacer"></div>
+
+  <section>
+    <div class="container-fluid two-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm center-dist">
+            <h1 class="big-text">Going to Hogwarts<h1>
+                <p style="font-size: 20px;">Are you still 'curious... very curious' about the first Harry Potter book? Continue your journey into the wizarding world</p>
+          </div>
+          <div class="col-sm">
+            <img src="img/house.webp" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="spacer"></div>
+  <section>
+    <div class="container-fluid two-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="img/owl.png" class="img-fluid"
+              style="padding: 100px" />
+          </div>
+          <div class="col-sm center-dist">
+            <h1 class="big-text">The first Harry Potter book</h1>
+            <p>Start your journey ! Set off into the wizarding world with the first book in the series.</p>
+            <button type="button" class="btn btn-primary">Start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="spacer"></div>
+
+
+  <!--populer movie-->
+  <section>
+    <div class="container-fluid two-box">
+      <div class="container">
+        <h1 class="big-text text-center">Books Collection</h1>
+        <p class="text-center mb-4" style="color: white">Discover the Wizarding World</p>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card mb-3" style="border: none">
+              <img src="img/book.jpg" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter and the Philosopher’s Stone</h5>
+                <p class="card-text">
+                  Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive.Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle.  
+                </p>
+                <p class="card-text"><small class="text-muted">Read More </small></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card mb-3" style="border: none">
+              <img src="img/book_2.jpg" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter and the Chamber of Secrets</h5>
+                <p class="card-text">
+                  Harry Potter’s summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft And Wizardry for his second year. 
+                </p>
+                <p class="card-text"><small class="text-muted">Read More</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card mb-3" style="border: none">
+              <img src="img/book_4.jpg" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Harry Potter and the Prisoner of Azkaban</h5>
+                <p class="card-text">
+                  When the Knight Bus crashes through the darkness and screeches to a halt in front of him, it’s the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run – and they say he is coming after Harry.
+                </p>
+                <p class="card-text"><small class="text-muted">Read More</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <div class="container-fluid two-box">
+    <div class="container">
+      <h5 class="big-text text-center">Frequently Asked Questions</h5>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed big-text-black" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">How do I find e-books?</button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Searching for material using relevant words and phrases, filtering results to what is available online, and refining the search results to display only the specific types of online material in the results.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed big-text-black" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">How do I request a book/article we don't have?</button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             Requesting material from another library. If you find an item in Hogwarts Library Search that is unavailable, you can request it thanks to our partnerships with Summit libraries in the region and other libraries around the world!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed big-text-black" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">How do I access resources from off-campus?</button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+            Current Hogwarts students, faculty and staff may access online library resources from off campus. Everyone is welcome to visit the library and use materials in the library. This includes access to online databases, e-journals and e-books. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed big-text-black" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Who can access online resources and from where?</button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+            Many of the Libraries' resources are available online, 24/7! However, most of the databases, electronic journals, and e-books have some access requirements, usually flagged by a note (with or without an icon). One or more can apply to a resource:
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <footer style="background-color: #10141b; padding-top: 50px; padding-bottom: 50px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <img src="img/logo.png" alt="" width="90" class="mb-3" />
+          <p class="text-muted">One web page for every book ever published.<br> It's a lofty but achievable goal.</p>
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-muted font-weight-bold">Discover</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Books </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Authors </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Collections </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Subjects </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-muted font-weight-bold">Help</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Help Center</a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="text-muted"> Report Problem </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h6 class="text-muted font-weight-bold">Let's stay connected</h6>
+          <p class="text-muted">Enter your email to join volunteer !</p>
+          <div class="input-group">
+            <input type="email" name="email" id="" class="form-control border-0 shadow-0" placeholder="Email" />
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-secondary">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
